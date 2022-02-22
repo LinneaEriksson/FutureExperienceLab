@@ -1,0 +1,60 @@
+html {
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+.first-floor-section {
+  scroll-snap-align: start;
+  background-color: rgb(233, 159, 159);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-floor-section {
+  scroll-snap-align: start;
+  background-color: rgb(134, 189, 221);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-floor-section {
+  scroll-snap-align: start;
+  background-color: rgb(233, 159, 159);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-floor-section {
+  scroll-snap-align: start;
+  background-color: rgb(134, 189, 221);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth-floor-section {
+  scroll-snap-align: start;
+  background-color: rgb(233, 159, 159);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixth-floor-section {
+  scroll-snap-align: start;
+  background-color: rgb(134, 189, 221);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
