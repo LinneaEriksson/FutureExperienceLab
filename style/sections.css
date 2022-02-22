@@ -8,7 +8,7 @@ html {
 .first-floor-section {
   scroll-snap-align: start;
   background-color: rgb(233, 159, 159);
-  height: 708px;
+  height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ html {
 .second-floor-section {
   scroll-snap-align: start;
   background-color: rgb(134, 189, 221);
-  height: 708px;
+  height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ html {
 .third-floor-section {
   scroll-snap-align: start;
   background-color: rgb(233, 159, 159);
-  height: 708px;
+  height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ html {
 .fourth-floor-section {
   scroll-snap-align: start;
   background-color: rgb(134, 189, 221);
-  height: 708px;
+  height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ html {
 .fifth-floor-section {
   scroll-snap-align: start;
   background-color: rgb(233, 159, 159);
-  height: 708px;
+  height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@ html {
 .sixth-floor-section {
   scroll-snap-align: start;
   background-color: rgb(134, 189, 221);
-  height: 708px;
+  height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
