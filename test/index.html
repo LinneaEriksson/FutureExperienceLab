@@ -16,9 +16,44 @@
       }
 
       body {
-        scroll-snap-type: y mandatory;
+        height: 100vh;
+        line-height: 1.6;
+        overflow: hidden;
+      }
+
+      .container {
+        width: 100%;
+        height: 100%;
         overflow-y: scroll;
-        /* overflow: hidden; */
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        scroll-snap-align: start;
+        /* padding: 7em;
+        height: calc(100vh - 220px);
+        color: white;
+        scroll-snap-align: start; */
+      }
+
+      .one {
+        background-color: rgb(114, 114, 114);
+      }
+
+      .two {
+        background-color: rgb(255, 230, 0);
+      }
+
+      .three {
+        background-color: rgb(183, 87, 221);
       }
 
       .sidenav {
@@ -59,25 +94,6 @@
         border-radius: 50%;
         display: inline-block;
       }
-
-      section {
-        padding: 7em;
-        height: calc(100vh - 220px);
-        color: white;
-        scroll-snap-align: start;
-      }
-
-      .one {
-        background-color: aqua;
-      }
-
-      .two {
-        background-color: rgb(255, 230, 0);
-      }
-
-      .three {
-        background-color: rgb(183, 87, 221);
-      }
     </style>
   </head>
   <body>
@@ -90,9 +106,29 @@
       </div>
     </header>
 
-    <section class="one"><h2>Section 1</h2></section>
-    <section class="two"><h2>Section 2</h2></section>
-    <section class="three"><h2>Section 3</h2></section>
+    <div class="container">
+      <section class="one">
+        <h2>Section 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          distinctio atque unde, necessitatibus quaerat sed.
+        </p>
+      </section>
+      <section class="two">
+        <h2>Section 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          distinctio atque unde, necessitatibus quaerat sed.
+        </p>
+      </section>
+      <section class="three">
+        <h2>Section 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          distinctio atque unde, necessitatibus quaerat sed.
+        </p>
+      </section>
+    </div>
 
     <script src="index.js"></script>
   </body>
