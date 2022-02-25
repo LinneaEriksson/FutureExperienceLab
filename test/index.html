@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./nav.css" />
     <title>Document</title>
     <style>
       html {
@@ -74,9 +75,9 @@
         display: block;
       }
 
-      a:first-child {
+      /* a:first-child {
         margin-top: 180px;
-      }
+      } */
 
       .dot:hover {
         background-color: rgb(203, 255, 121);
@@ -95,12 +96,50 @@
     </style>
   </head>
   <body>
+    <div class="sidenav">
+      <a href="#"><span class="dot"></span></a>
+      <a href="#"><span class="dot"></span></a>
+      <a href="#"><span class="dot"></span></a>
+      <a href="#"><span class="dot"></span></a>
+    </div>
     <header>
-      <div class="sidenav">
-        <a href="#"><span class="dot"></span></a>
-        <a href="#"><span class="dot"></span></a>
-        <a href="#"><span class="dot"></span></a>
-        <a href="#"><span class="dot"></span></a>
+      <div class="navbar">
+        <a href="#top" class="nav-branding"> Future Experience Lab </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#products" class="nav-link">Start</a>
+          </li>
+          <li class="nav-item">
+            <a href="#specifications" class="nav-link">Projekt</a>
+          </li>
+          <li class="nav-item">
+            <a href="#merch" class="nav-link">Kontakt</a>
+          </li>
+          <li>
+            <div class="social-media-icons">
+              <img
+                class="facebook"
+                src="./images/facebook-icon.png"
+                alt="facebook-icon"
+              />
+              <img
+                class=""
+                src="./images/instagram-icon.png"
+                alt="instagram-icon"
+              />
+              <img
+                class=""
+                src="./images/youtube-icon.png"
+                alt="youtube-icon"
+              />
+            </div>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </div>
     </header>
 
