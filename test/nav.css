@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+header {
+  background-color: black;
+  /* top: 0; */
+  /* position: sticky; */
+  /* z-index: 1; */
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: var(--nav-link-size);
+}
+
+.navbar {
+  /* width: 100%; */
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-link {
+  transition: 0.5s ease-out;
+}
+
+.logo-image #element {
+  transition: 0.5s ease-out;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: var(--color-white);
+}
+
+header .hamburger .bar:last-child {
+  width: 12.5px;
+  margin-right: 0px;
+}
+
+.social-media-icons {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    width: 25px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: 100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 100%;
+    justify-content: unset;
+    transition: 0.5s;
+    gap: 24px;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-item:first-child {
+    margin-top: 80px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu .social-media-icons {
+    display: inline-flex;
+    offset-distance: 70px;
+  }
+
+  .social-media-icons img {
+    margin-top: 120px;
+    padding: 2rem;
+  }
+
+  img .facebook {
+    margin-left: 8px;
+  }
+}
