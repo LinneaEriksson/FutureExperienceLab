@@ -5,56 +5,40 @@ html {
   scroll-snap-type: y mandatory;
 }
 
-.first-floor-section {
+section {
+  height: calc(100vh - 220px);
+  color: white;
   scroll-snap-align: start;
-  background-color: rgb(233, 159, 159);
-  height: 720px;
+  margin: 0px;
+}
+
+.first-floor-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url("https://media.giphy.com/media/ZZkCo8zKWtt2ZgozfX/giphy.gif");
+  background-size: cover;
+  height: 800px;
 }
 
 .second-floor-section {
-  scroll-snap-align: start;
-  background-color: rgb(134, 189, 221);
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(170, 60, 60);
+  height: 1500px;
 }
 
 .third-floor-section {
-  scroll-snap-align: start;
   background-color: rgb(233, 159, 159);
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fourth-floor-section {
-  scroll-snap-align: start;
   background-color: rgb(134, 189, 221);
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fifth-floor-section {
-  scroll-snap-align: start;
   background-color: rgb(233, 159, 159);
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .sixth-floor-section {
-  scroll-snap-align: start;
   background-color: rgb(134, 189, 221);
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 900px;
 }
