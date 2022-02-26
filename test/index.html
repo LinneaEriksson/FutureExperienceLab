@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./sidenav.css" />
     <title>Document</title>
     <style>
       html {
@@ -32,66 +34,34 @@
       }
 
       section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
         width: 100%;
         height: 100vh;
         scroll-snap-align: start;
       }
 
-      .one {
+      .hero {
         background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900")
           no-repeat center center/cover;
       }
 
       .two {
-        background-color: rgb(255, 230, 0);
+        background-color: rgb(41, 41, 40);
+        /* test */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
       }
 
       .three {
         background-color: rgb(183, 87, 221);
-      }
-
-      .sidenav {
-        height: 100%;
-        width: 60px;
-        position: fixed;
-        z-index: 1;
-        top: 0px;
-        left: 0px;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-      }
-
-      .sidenav a {
-        padding: 8px 8px 8px 20px;
-        text-decoration: none;
-        color: #818181;
-        display: block;
-      }
-
-      /* a:first-child {
-        margin-top: 180px;
-      } */
-
-      .dot:hover {
-        background-color: rgb(203, 255, 121);
-        height: 35px;
-        width: 35px;
-        transition: 0.5s;
-      }
-
-      .dot {
-        height: 25px;
-        width: 25px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
+        /* test */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
       }
     </style>
   </head>
@@ -102,54 +72,19 @@
       <a href="#"><span class="dot"></span></a>
       <a href="#"><span class="dot"></span></a>
     </div>
-    <header>
-      <div class="navbar">
-        <a href="#top" class="nav-branding"> Future Experience Lab </a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="#products" class="nav-link">Start</a>
-          </li>
-          <li class="nav-item">
-            <a href="#specifications" class="nav-link">Projekt</a>
-          </li>
-          <li class="nav-item">
-            <a href="#merch" class="nav-link">Kontakt</a>
-          </li>
-          <li>
-            <div class="social-media-icons">
-              <img
-                class="facebook"
-                src="./images/facebook-icon.png"
-                alt="facebook-icon"
-              />
-              <img
-                class=""
-                src="./images/instagram-icon.png"
-                alt="instagram-icon"
-              />
-              <img
-                class=""
-                src="./images/youtube-icon.png"
-                alt="youtube-icon"
-              />
-            </div>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </div>
-    </header>
 
     <div class="container">
-      <section class="one">
-        <h2>Section 1</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          distinctio atque unde, necessitatibus quaerat sed.
-        </p>
+      <section class="hero">
+        <div class="header-container">
+          <a href="/index.html">Start</a>
+          <div class="dropdown">
+            <button class="drop-btn">Projekt ▼</button>
+            <div class="dropdown-content">
+              <a href="/lab01.html">Lab-01</a>
+            </div>
+          </div>
+          <a href="">Kontakt</a>
+        </div>
       </section>
       <section class="two">
         <h2>Section 2</h2>
