@@ -12,7 +12,7 @@ section {
   scroll-snap-align: start;
 }
 
-.hero {
+.home {
   background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900") no-repeat
     center center/cover;
 }
