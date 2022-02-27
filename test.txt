@@ -1,0 +1,28 @@
+  </section>
+    <section class="footer">
+      <h2>Future Experience Lab - <br>
+        En fantasiverkstad och
+        ett experimentlab
+         för att provköra framtiden. 
+        Och skapa den.</h2>
+
+        <div class="footer-container">
+          <div>
+            <h3>Adress</h3>
+            <p>Vasagatan 46</p>
+            <p>412 50 Göteborg</p>
+          </div>
+          <div> 
+            <h3>Kontakt</h3>
+            <p>info@futureexperiene.com</p>
+            <p>+46 763252363</p>
+          </div>
+          <div>
+             <h3>Sociala medier</h3>
+             <img src="/images/instagram.png">
+             <img src="/images/tiktok.png">
+             <img src="/images/twitter.png">
+             <img src="/images/facebook.png">
+            </div>
+        </div>
+    </section>
