@@ -18,7 +18,23 @@ section {
 }
 
 .about {
-  background-color: rgb(41, 41, 40);
+  background: linear-gradient(
+      283deg,
+      rgba(189, 49, 82, 1) 0%,
+      rgba(204, 55, 89, 1) 5%,
+      rgba(208, 80, 96, 1) 18%,
+      rgba(238, 165, 152, 1) 35%,
+      rgba(228, 163, 151, 1) 46%,
+      rgba(222, 126, 146, 1) 56%,
+      rgba(214, 111, 147, 1) 59%,
+      rgba(201, 82, 149, 1) 67%,
+      rgba(187, 64, 149, 1) 71%,
+      rgba(184, 60, 149, 1) 74%,
+      rgba(144, 8, 157, 1) 96%,
+      rgba(141, 6, 154, 1) 100%
+    ),
+    url(https://grainy-gradients.vercel.app/noise.svg);
+
   /* test */
   display: flex;
   flex-direction: column;
@@ -28,7 +44,21 @@ section {
 }
 
 .projects {
-  background-color: rgb(183, 87, 221);
+  background: linear-gradient(
+    87deg,
+    rgba(189, 49, 82, 1) 0%,
+    rgba(204, 55, 89, 1) 5%,
+    rgba(208, 80, 96, 1) 18%,
+    rgba(238, 165, 152, 1) 35%,
+    rgba(228, 163, 151, 1) 46%,
+    rgba(222, 126, 146, 1) 56%,
+    rgba(214, 111, 147, 1) 59%,
+    rgba(201, 82, 149, 1) 67%,
+    rgba(187, 64, 149, 1) 71%,
+    rgba(184, 60, 149, 1) 74%,
+    rgba(149, 8, 157, 1) 96%,
+    rgba(149, 6, 154, 1) 100%
+  );
   /* test */
   display: flex;
   flex-direction: column;
