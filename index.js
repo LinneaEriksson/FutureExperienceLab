@@ -1,17 +1,14 @@
-console.log(window.innerHeight);
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-window.addEventListener("scroll", () => {
-  console.log(window.scrollY);
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 });
 
-const gra = function (min, max) {
-  return Math.random() * (max - min) + min;
-};
-const init = function () {
-  let items = document.querySelectorAll("section");
-  for (let i = 0; i < items.length; i++) {
-    items[i].style.background = randomColor({ luminosity: "light" });
-  }
-  cssScrollSnapPolyfill();
-};
-init();
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
