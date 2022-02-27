@@ -34,8 +34,8 @@
 
   .dot:hover {
     background-color: rgb(203, 255, 121);
-    height: 35px;
-    width: 35px;
+    /* height: 35px;
+    width: 35px; */
     transition: 0.5s;
   }
 
