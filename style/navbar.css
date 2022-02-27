@@ -145,6 +145,13 @@ img .facebook {
   fill: rgb(132, 238, 132);
 }
 
+.test-button {
+  background-color: transparent;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
 /* DESKTOP */
 
 @media only screen and (min-width: 600px) {
@@ -153,7 +160,7 @@ img .facebook {
   }
   .header-container {
     height: 100px;
-    width: 100%;
+    width: 97%;
     display: flex;
     justify-content: flex-end;
   }
@@ -166,16 +173,13 @@ img .facebook {
     text-decoration: none;
     font-family: "arial";
   }
-  .header-container a:last-child {
-    margin-right: 46px;
-  }
 
   /* Drop down */
 
   .drop-btn {
     background-color: transparent;
     color: white;
-    font-size: 19px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
   }
