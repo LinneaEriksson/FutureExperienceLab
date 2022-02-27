@@ -4,66 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/global.css" />
     <link rel="stylesheet" href="./style/navbar.css" />
     <link rel="stylesheet" href="./style/sidenav.css" />
-    <link rel="stylesheet" href="./style/sidenav.css" />
+    <link rel="stylesheet" href="./style/container.css" />
     <title>Document</title>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        height: 100vh;
-        line-height: 1.6;
-        overflow: hidden;
-        color: aliceblue;
-      }
-
-      .container {
-        width: 100%;
-        height: 100%;
-        overflow-y: scroll;
-        scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;
-      }
-
-      section {
-        width: 100%;
-        height: 100vh;
-        scroll-snap-align: start;
-      }
-
-      .hero {
-        background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900")
-          no-repeat center center/cover;
-      }
-
-      .two {
-        background-color: rgb(41, 41, 40);
-        /* test */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-
-      .three {
-        background-color: rgb(183, 87, 221);
-        /* test */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-    </style>
   </head>
   <body>
     <div class="sidenav">
@@ -140,20 +85,28 @@
           <a href="">Kontakt</a>
         </div>
       </section>
-      <section class="two">
-        <h2>Section 2</h2>
+      <section class="about">
+        <h2>Om oss</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           distinctio atque unde, necessitatibus quaerat sed.
         </p>
       </section>
-      <section class="three">
-        <h2>Section 3</h2>
+      <section class="projects">
+        <h2>Projekt</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
           distinctio atque unde, necessitatibus quaerat sed.
         </p>
       </section>
+    </section>
+    <section class="footer">
+      <h2>Footer</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+        distinctio atque unde, necessitatibus quaerat sed.
+      </p>
+    </section>
     </div>
 
     <script src="index.js"></script>
