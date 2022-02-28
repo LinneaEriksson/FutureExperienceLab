@@ -119,30 +119,27 @@ img .facebook {
   transition: 0.5s ease-out;
 }
 
-.logo-image #element {
-  transition: 0.5s ease-out;
-}
-
 .nav-link:hover {
   color: rgb(132, 238, 132);
 }
 
 /* NAV BRANDING */
 
-.logo-image #element {
-  transition: 0.5s ease-out;
-}
-
 /* .nav-branding .logo-image {
   width: 123px;
   height: 19px;
 } */
-.nav-branding {
-  margin-top: 10px;
+
+.logo-image #element {
+  transition: 0.5s ease-out;
 }
 
 .nav-branding .logo-image:hover #element {
   fill: rgb(132, 238, 132);
+}
+
+.nav-branding {
+  margin-top: 10px;
 }
 
 .test-button {

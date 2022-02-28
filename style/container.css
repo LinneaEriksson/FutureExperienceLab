@@ -54,3 +54,13 @@ section {
   justify-content: center;
   text-align: center;
 }
+
+.initiative {
+  background-color: rgb(1, 134, 211);
+  /* test */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

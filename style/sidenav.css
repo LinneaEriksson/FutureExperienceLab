@@ -48,7 +48,7 @@
   .sidenav {
     display: block;
     height: 100%;
-    width: 60px;
+    width: 80px;
     position: fixed;
     z-index: 1;
     top: 0px;
@@ -75,11 +75,22 @@
     text-decoration: none;
     color: rgb(217, 255, 157);
   }
-  nav .sidenav ul li.active {
+
+  /* nav .sidenav ul li.active {
     background-color: crimson;
     transition: 0.3s ease background-color;
+  } */
+
+  nav .sidenav ul li.active .button-element {
+    /* color: rgb(0, 0, 0); */
+    fill: rgb(255, 30, 0);
   }
-  nav .sidenav ul li.active a {
-    color: rgb(255, 255, 255);
+
+  .home-page a .button-element {
+    transition: 0.5s ease-out;
   }
+
+  /* .home-page a :hover .button-element {
+    fill: rgb(200, 255, 0);
+  } */
 }
