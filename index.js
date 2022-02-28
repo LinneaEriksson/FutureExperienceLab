@@ -1,3 +1,6 @@
+// *********************
+// Mobile menu
+// **********************
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -34,8 +37,6 @@ window.addEventListener("scroll", () => {
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    // topminusheight = sectionTop - sectionHeight / 3;
-
     if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
       current = section.getAttribute("id");
     }

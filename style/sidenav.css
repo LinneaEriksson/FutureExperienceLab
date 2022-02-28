@@ -48,7 +48,7 @@
   .sidenav {
     display: block;
     height: 100%;
-    width: 60px;
+    width: 80px;
     position: fixed;
     z-index: 1;
     top: 0px;
