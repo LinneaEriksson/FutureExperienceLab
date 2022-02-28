@@ -138,11 +138,11 @@ img .facebook {
   fill: rgb(132, 238, 132);
 }
 
-.home-page .button-element {
+.home-page a .button-element {
   transition: 0.5s ease-out;
 }
 
-.home-page :hover .button-element {
+.home-page a :hover .button-element {
   fill: rgb(200, 255, 0);
 }
 

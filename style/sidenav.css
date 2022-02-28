@@ -76,10 +76,10 @@
     color: rgb(217, 255, 157);
   }
 
-  nav .sidenav ul li.active {
+  /* nav .sidenav ul li.active {
     background-color: crimson;
     transition: 0.3s ease background-color;
-  }
+  } */
 
   nav .sidenav ul li.active .button-element {
     /* color: rgb(0, 0, 0); */
