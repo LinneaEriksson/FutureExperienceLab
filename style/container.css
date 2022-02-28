@@ -19,16 +19,7 @@ section {
 }
 
 .about {
-  background: rgb(241, 158, 93);
-  background: linear-gradient(
-      90deg,
-      rgba(241, 158, 93, 1) 0%,
-      rgba(231, 125, 107, 1) 25%,
-      rgba(223, 98, 123, 1) 49%,
-      rgba(168, 56, 136, 1) 79%,
-      rgba(150, 14, 149, 1) 100%
-    ),
-    url(https://grainy-gradients.vercel.app/noise.svg);
+  background-image: url(/images/landing/bakgrund\ #1.png);
 
   /* test */
   display: flex;
