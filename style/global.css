@@ -13,3 +13,8 @@ body {
   /* overflow: hidden; */
   color: aliceblue;
 }
+
+@font-face {
+  font-family: "Nagoda";
+  src: url("fonts/Nagoda.woff") format("woff");
+}

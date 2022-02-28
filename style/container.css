@@ -18,17 +18,6 @@ section {
     center center/cover;
 }
 
-.about {
-  background-image: url(/images/landing/bakgrund\ #1.png);
-
-  /* test */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .projects {
   background: rgb(255, 127, 50);
   background: linear-gradient(
