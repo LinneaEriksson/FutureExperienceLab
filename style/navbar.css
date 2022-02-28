@@ -138,14 +138,6 @@ img .facebook {
   fill: rgb(132, 238, 132);
 }
 
-.home-page a .button-element {
-  transition: 0.5s ease-out;
-}
-
-.home-page a :hover .button-element {
-  fill: rgb(200, 255, 0);
-}
-
 .nav-branding {
   margin-top: 10px;
 }

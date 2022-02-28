@@ -22,15 +22,6 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll("nav .sidenav ul li");
-// console.log("-------section id---------");
-// sections.forEach((section) => {
-//   console.log(section.getAttribute("id"));
-// });
-// console.log("-------list class:-------");
-
-// navLi.forEach((list) => {
-//   console.log(list.getAttribute("class"));
-// });
 
 window.addEventListener("scroll", () => {
   let current = "";
