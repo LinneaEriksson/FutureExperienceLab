@@ -23,6 +23,7 @@
   display: none;
 } */
 .projects .scroll-menu {
+  /* background-color: aqua; */
   margin-bottom: 1rem;
   overflow: auto;
   white-space: nowrap;
@@ -55,6 +56,16 @@
 /* DESKTOP */
 
 @media only screen and (min-width: 600px) {
+  .projects {
+    background: url("/images/landing/backgroundOne.png") no-repeat center
+      center/cover;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+
   .projects-text {
     padding: 100px 10px 100px 100px;
   }
@@ -63,21 +74,16 @@
     padding-bottom: 40px;
   }
 
-  .projects .scroll-menu div {
-    /* width: 20%;
-    max-width: 50rem; */
-    padding: 1rem;
-  }
-
   .projects .scroll-menu {
     /* margin: 1rem; */
+    height: 530px;
     padding-left: 100px;
   }
 
   .projects .scroll-menu div {
-    width: 22%;
+    width: 24%;
     max-width: 50rem;
-    /* padding: 1rem; */
+    padding: 10px;
     border: 2px solid black;
     border-radius: 8px;
     display: inline-block;
