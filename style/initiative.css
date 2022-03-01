@@ -1,0 +1,20 @@
+.initiative {
+  background-color: #212121;
+}
+
+.initiative h2 {
+  color: #f6eee1;
+  font-family: Nagoda;
+  font-size: 31px;
+  text-align: right;
+}
+
+.initiative span {
+  color: #d64e36;
+}
+
+@media only screen and (min-width: 600px) {
+  .initiative h2 {
+    font-size: 96px;
+  }
+}
