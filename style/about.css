@@ -1,6 +1,6 @@
 .about {
   background-color: #212121;
-  height: 100%;
+  height: 880px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -9,10 +9,10 @@
 
 .about h2 {
   margin: auto;
-  font-size: 26px;
+  font-size: 24px;
   width: 90%;
-  margin-top: 96px;
-  margin-bottom: 120px;
+  margin-top: 76px;
+  margin-bottom: 220px;
   color: #f6eee1;
   font-family: Nagoda;
 }
@@ -33,6 +33,7 @@
   color: #f6eee1;
   width: 90%;
   font-family: var(--paragraphs);
+  margin-top: 200px;
 }
 
 .about-decoration {
@@ -48,8 +49,8 @@
 }
 
 .about-first-image {
-  width: 70%;
-  margin-top: 278px;
+  width: 60%;
+  margin-top: 280px;
   z-index: 1;
   position: absolute;
   margin-left: 24px;
@@ -60,22 +61,29 @@
 }
 
 .about-third-image {
-  margin-top: 313px;
+  margin-top: 310px;
   width: 40%;
   z-index: 3;
   position: absolute;
   margin-left: 200px;
 }
 
+.mobile-break {
+  display: block;
+}
+
 @media only screen and (min-width: 600px) {
   .about {
-    height: 1200px;
+    height: 1050px;
   }
 
+  .mobile-break {
+    display: none;
+  }
   .about h2 {
-    margin-left: 100px;
-    font-size: 48px;
-    width: 70%;
+    margin-left: 200px;
+    font-size: 28px;
+    width: 80%;
     margin-top: 120px;
     margin-bottom: 120px;
   }
@@ -94,27 +102,35 @@
   }
 
   .about-first-image {
-    width: 400px;
+    margin-left: 50%;
+    width: 298px;
     margin-top: 308px;
   }
 
   .about-second-image {
+    margin-left: 60%;
     display: block;
     position: absolute;
-    width: 330px;
+    width: 231px;
     margin-top: 524px;
-
     z-index: 2;
   }
 
   .about-third-image {
-    margin-top: 344px;
-    width: 445px;
+    margin-left: 75%;
+    margin-top: 350px;
+    width: 320px;
   }
 
   .about p {
     font-size: 24px;
     margin-top: 444px;
-    width: 70%;
+    width: 80%;
+    margin-left: 200px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .about h2 {
+    font-size: 44px;
   }
 }
