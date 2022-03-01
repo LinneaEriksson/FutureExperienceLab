@@ -1,3 +1,7 @@
+:root {
+  --paragraphs: "Syne", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,5 +20,12 @@ body {
 
 @font-face {
   font-family: "Nagoda";
-  src: url("fonts/Nagoda2.woff") format("woff");
+  src: url("fonts/Nagoda2.woff") format("woff"),
+    url("fonts/Nagoda2.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NagodaTwo";
+  src: url("fonts/Nagoda.woff") format("woff"),
+    url("fonts/Nagoda.woff2") format("woff2");
 }
