@@ -15,16 +15,22 @@
     z-index: 1;
     top: 0px;
     left: 0px;
-    background-color: rgb(17, 17, 17);
+    background-image: url("../images/navbar-desktop.png");
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+  }
+
+  .sidenav ul {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 
   .sidenav a {
-    padding: 30px 8px 8px 8px;
+    padding: 10px 8px 8px 8px;
     text-decoration: none;
-    color: #818181;
     display: block;
   }
 
@@ -33,18 +39,11 @@
   }
 
   nav .sidenav ul li a {
-    font-size: 15px;
+    font-size: 1px;
     text-decoration: none;
-    color: rgb(217, 255, 157);
   }
 
-  /* nav .sidenav ul li.active {
-    background-color: crimson;
-    transition: 0.3s ease background-color;
-  } */
-
   nav .sidenav ul li.active .button-element {
-    /* color: rgb(0, 0, 0); */
     fill: rgb(255, 30, 0);
   }
 
