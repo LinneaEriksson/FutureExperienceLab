@@ -1,0 +1,18 @@
+.contact {
+  background: url("/images/landing/backgroundTwo.png") no-repeat center
+    center/cover;
+  height: 100%;
+}
+
+.contact h2 {
+  color: #212121;
+  font-family: Nagoda;
+  font-size: 26px;
+  text-align: right;
+}
+
+@media only screen and (min-width: 600px) {
+  .contact h2 {
+    font-size: 31px;
+  }
+}
