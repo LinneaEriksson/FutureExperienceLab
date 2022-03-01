@@ -1,3 +1,5 @@
+/* MOBILE */
+
 .projects {
   background: url("/images/landing/backgroundOne.png") no-repeat center
     center/cover;
@@ -10,18 +12,75 @@
 
 .projects h2 {
   font-size: 26px;
-  width: 80%;
+  /* width: 80%;
   margin-top: 96px;
-  margin-bottom: 120px;
+  margin-bottom: 120px; */
   color: #f6eee1;
   font-family: Nagoda;
 }
 
+/* .scroll-menu {
+  display: none;
+} */
+.projects .scroll-menu {
+  margin-bottom: 1rem;
+  overflow: auto;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+.projects .scroll-menu div {
+  width: 70%;
+  max-width: 50rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.projects .scroll-menu img {
+  width: 100%;
+}
+.projects-text {
+  padding: 100px 10px 100px 10px;
+}
+.projects-text h2 {
+  background-color: rgb(77, 45, 6);
+}
+.projects-text p {
+  background-color: rgb(14, 39, 35);
+}
+
+/* DESKTOP */
+
 @media only screen and (min-width: 600px) {
-  .projects h2 {
-    font-size: 48px;
-    width: 80%;
-    margin-top: 120px;
-    margin-bottom: 120px;
+  .projects-text {
+    padding: 100px 10px 100px 100px;
+  }
+
+  .projects-text h2 {
+    padding-bottom: 40px;
+  }
+
+  .projects .scroll-menu div {
+    /* width: 20%;
+    max-width: 50rem; */
+    padding: 1rem;
+  }
+
+  .projects .scroll-menu {
+    /* margin: 1rem; */
+    padding-left: 100px;
+  }
+
+  .projects .scroll-menu div {
+    width: 22%;
+    max-width: 50rem;
+    /* padding: 1rem; */
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
   }
 }
