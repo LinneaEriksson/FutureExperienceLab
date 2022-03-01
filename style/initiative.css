@@ -1,5 +1,6 @@
 .initiative {
   background-color: #212121;
+  height: 1500px;
 }
 
 .initiative h2 {
@@ -7,14 +8,54 @@
   font-family: Nagoda;
   font-size: 31px;
   text-align: right;
+  padding-top: 80px;
+  margin: auto;
+}
+
+.initiative p {
+  z-index: 1;
+}
+
+.initiative-image {
+  z-index: 1;
 }
 
 .initiative span {
-  color: #d64e36;
+  color: #d12c2c;
+}
+
+.initiative-decoration {
+  display: none;
+}
+
+.initiative-decoration-mobile {
+  display: block;
+  z-index: 0;
+}
+
+.initiative div {
 }
 
 @media only screen and (min-width: 600px) {
   .initiative h2 {
-    font-size: 96px;
+    font-size: 80px;
+    line-height: 80px;
+    padding-top: 180px;
+    margin: auto;
+  }
+
+  .initiative-decoration {
+    display: block;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .initiative-decoration-mobile {
+    display: none;
+  }
+
+  .initiative div {
+    display: flex;
+    flex-direction: row;
   }
 }
