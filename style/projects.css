@@ -10,11 +10,8 @@
   align-items: center;
 }
 
-.projects h2 {
+.projects-text h2 {
   font-size: 26px;
-  /* width: 80%;
-  margin-top: 96px;
-  margin-bottom: 120px; */
   color: #f6eee1;
   font-family: Nagoda;
 }
@@ -31,9 +28,9 @@
 }
 
 .projects .scroll-menu div {
-  width: 70%;
+  width: 60%;
   max-width: 50rem;
-  padding: 1rem;
+  padding: 10px;
   border: 2px solid black;
   border-radius: 8px;
   display: inline-block;
@@ -57,13 +54,7 @@
 
 @media only screen and (min-width: 600px) {
   .projects {
-    background: url("/images/landing/backgroundOne.png") no-repeat center
-      center/cover;
     height: 1000px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-items: center;
   }
 
   .projects-text {
@@ -72,6 +63,7 @@
 
   .projects-text h2 {
     padding-bottom: 40px;
+    font-size: 48px;
   }
 
   .projects .scroll-menu {
