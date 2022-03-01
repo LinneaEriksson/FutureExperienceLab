@@ -1,5 +1,5 @@
 // *********************
-// Mobile menu
+// Mobile Menu
 // **********************
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -17,7 +17,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 );
 
 // *********************
-// Side menu
+// Side Menu
 // **********************
 
 const sections = document.querySelectorAll("section");
