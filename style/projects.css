@@ -31,7 +31,7 @@
   width: 60%;
   max-width: 50rem;
   padding: 10px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 8px;
   display: inline-block;
   cursor: pointer;
@@ -40,14 +40,23 @@
 .projects .scroll-menu img {
   width: 100%;
 }
+
 .projects-text {
-  padding: 100px 10px 100px 10px;
+  padding: 100px 20px 80px 20px;
 }
+
 .projects-text h2 {
-  background-color: rgb(77, 45, 6);
+  /* background-color: rgb(77, 45, 6); */
+  color: black;
+  padding-bottom: 40px;
 }
-.projects-text p {
+
+/* .projects-text p {
   background-color: rgb(14, 39, 35);
+} */
+
+.projects-text .paragraph-text-desktop {
+  display: none;
 }
 
 /* DESKTOP */
@@ -58,12 +67,24 @@
   }
 
   .projects-text {
-    padding: 100px 10px 100px 100px;
+    padding: 70px 10px 60px 120px;
+    /* background-color: blueviolet; */
+    text-align: left;
+    justify-content: left;
+    align-self: start;
   }
 
   .projects-text h2 {
     padding-bottom: 40px;
     font-size: 48px;
+  }
+
+  .projects-text .paragraph-text-desktop {
+    display: inherit;
+  }
+
+  .projects-text .paragraph-text-mobile {
+    display: none;
   }
 
   .projects .scroll-menu {
@@ -76,7 +97,7 @@
     width: 24%;
     max-width: 50rem;
     padding: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 8px;
     display: inline-block;
     cursor: pointer;

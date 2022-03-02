@@ -42,16 +42,10 @@ header {
 
 .hamburger.active .bar:nth-child(1) {
   transform: translateY(0px) rotate(-180deg);
-  border-right: 12px solid rgb(30, 255, 0);
-}
-
-.hamburger.active .bar:nth-child(2) {
-  background-color: rgb(30, 255, 0);
 }
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(0px) rotate(180deg);
-  border-left: 12px solid rgb(30, 255, 0);
 }
 
 .bar {
