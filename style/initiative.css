@@ -10,7 +10,7 @@
   text-align: right;
   padding-top: 80px;
   margin: auto;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .initiative p {
@@ -18,6 +18,7 @@
   margin-left: 6%;
   margin-right: 6%;
   font-family: var(--paragraphs);
+  color: var(--paragraph-color);
 }
 
 .initiative-image {
@@ -59,17 +60,23 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .initiative {
+    background-color: #212121;
+    height: 1400px;
+  }
+
   .initiative h2 {
     font-size: 80px;
     line-height: 80px;
     padding-top: 180px;
-    margin: auto;
+    margin-right: 15%;
   }
 
   .initiative-decoration {
     display: block;
     width: 100%;
     z-index: 0;
+    margin-top: 200px;
   }
 
   .initiative-decoration-mobile {
@@ -79,7 +86,10 @@
   .initiative-image {
     display: block;
     z-index: 1;
+    margin-left: 15%;
+    margin-top: 40px;
     position: absolute;
+    width: 35%;
   }
 
   .initiative-image-mobile {
@@ -89,5 +99,16 @@
   .initiative div {
     display: flex;
     flex-direction: row;
+  }
+
+  .initiative p {
+    margin-top: 0px;
+    margin-left: 50%;
+    margin-right: 6%;
+    width: 550px;
+    font-family: var(--paragraphs);
+    color: var(--paragraph-color);
+    z-index: 2;
+    position: absolute;
   }
 }
