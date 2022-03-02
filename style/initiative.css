@@ -4,7 +4,7 @@
 }
 
 .initiative h2 {
-  color: #f6eee1;
+  color: var(--heading-color);
   font-family: Nagoda;
   font-size: 31px;
   text-align: right;
@@ -31,6 +31,7 @@
 .initiative-decoration-mobile {
   display: block;
   z-index: 0;
+  width: 100%;
 }
 
 .initiative div {
