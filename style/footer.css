@@ -37,6 +37,10 @@
   color: var(--paragraph-color);
 }
 
+.footer span {
+  color: rgb(221, 67, 93);
+}
+
 @media only screen and (min-width: 600px) {
   .footer {
     align-items: center;
@@ -44,10 +48,10 @@
   }
 
   .footer h2 {
-    font-size: 53px;
-    width: 70%;
+    font-size: 45px;
+    width: 75%;
     margin-top: 177px;
-    margin-left: 0px;
+    margin-left: 70px;
     margin-right: 0px;
     margin-bottom: 166px;
   }
