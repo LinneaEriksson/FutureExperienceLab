@@ -5,6 +5,8 @@
 }
 
 header {
+  position: fixed !important;
+  width: 100%;
   background-image: url("../images/navbar-mobil.png");
   top: 0;
   position: sticky;

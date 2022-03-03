@@ -15,8 +15,8 @@ html {
 
 body {
   height: 100vh;
-  line-height: 1.6;
-  overflow: hidden;
+  /* line-height: 1.6;
+  overflow: hidden; */
   background-color: #212121;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-  body {
+  /* body {
     overflow: visible;
-  }
+  } */
 }
