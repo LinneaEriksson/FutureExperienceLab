@@ -28,13 +28,20 @@
 }
 
 .footer h3 {
-  color: var(--heading-color);
+  color: white;
   font-family: Nagoda;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .footer p {
   font-family: "Syne", sans-serif;
-  color: var(--paragraph-color);
+  color: white;
+  font-size: 20px;
+}
+
+.footer img {
+  margin-right: 10px;
 }
 
 .footer span {
@@ -43,6 +50,7 @@
 
 @media only screen and (min-width: 600px) {
   .footer {
+    height: 750px;
     align-items: center;
     text-align: left;
   }
