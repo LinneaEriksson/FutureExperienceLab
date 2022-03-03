@@ -1,7 +1,7 @@
 /* MOBILE */
 
 .projects {
-  background: url("/images/landing/backgroundOne.png") no-repeat center
+  background: url("/images/landing/labBackground.png") no-repeat center
     center/cover;
   height: 100%;
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .projects-text h2 {
-  font-size: 26px;
+  font-size: 48px;
   color: #f6eee1;
   font-family: Nagoda;
 }
@@ -51,9 +51,10 @@
   padding-bottom: 40px;
 }
 
-/* .projects-text p {
-  background-color: rgb(14, 39, 35);
-} */
+.projects p {
+  color: var(--paragraph-color);
+  font-family: var(--paragraphs);
+}
 
 .projects-text .paragraph-text-desktop {
   display: none;
@@ -63,6 +64,8 @@
 
 @media only screen and (min-width: 600px) {
   .projects {
+    background: url("/images/landing/backgroundOne.png") no-repeat center
+      center/cover;
     height: 1000px;
   }
 
