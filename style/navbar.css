@@ -125,10 +125,6 @@ img .facebook {
   color: var(--heading-color);
 }
 
-.nav-link:hover {
-  color: rgb(132, 238, 132);
-}
-
 /* NAV BRANDING */
 
 .nav-branding .logo-image #element {
