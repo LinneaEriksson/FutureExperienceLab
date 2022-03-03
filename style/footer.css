@@ -1,7 +1,7 @@
 .footer {
   background-color: #212121;
   background: url("/images/landing/Grain.png") no-repeat center center/cover;
-  height: 900px;
+  height: 850px;
   display: flex;
   flex-direction: column;
   text-align: left;
