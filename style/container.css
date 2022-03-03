@@ -13,8 +13,9 @@ section {
 }
 
 .home {
-  height: 100vh;
+  height: 800px;
   background: url("../images/hero-mobile.png") no-repeat center center/cover;
+  background-color: rgb(196, 126, 35);
 }
 
 .home video {
@@ -34,8 +35,10 @@ section {
   }
   .home video {
     position: relative;
-    width: 100%;
     display: flex;
     align-items: center;
+
+    max-width: 100%;
+    object-fit: fill;
   }
 }
