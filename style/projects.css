@@ -54,6 +54,7 @@
 .projects p {
   color: var(--paragraph-color);
   font-family: var(--paragraphs);
+  font-size: 16px;
 }
 
 .projects-text .paragraph-text-desktop {
@@ -79,7 +80,7 @@
 
   .projects-text h2 {
     padding-bottom: 40px;
-    font-size: 48px;
+    font-size: 88px;
   }
 
   .projects-text .paragraph-text-desktop {
@@ -111,5 +112,9 @@
     border-radius: 8px;
     display: inline-block;
     cursor: pointer;
+  }
+
+  .projects p {
+    font-size: 24px;
   }
 }
