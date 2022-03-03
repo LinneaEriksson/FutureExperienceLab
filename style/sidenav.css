@@ -15,7 +15,7 @@
     z-index: 1;
     top: 0px;
     left: 0px;
-    background-image: url("../images/navbar-desktop.png");
+    background-image: url("../images/navbar_desktop.png");
     overflow-x: hidden;
     transition: 0.5s;
   }
