@@ -1,7 +1,7 @@
 .initiative {
   background-color: #212121;
   background: url("/images/landing/Grain.png") no-repeat center center/cover;
-  height: 920px;
+  height: 880px;
 }
 
 .initiative h2 {
@@ -15,7 +15,7 @@
 }
 
 .initiative p {
-  margin-top: 420px;
+  margin-top: 440px;
   margin-left: 6%;
   margin-right: 6%;
   font-family: var(--paragraphs);
@@ -54,7 +54,7 @@
   margin-top: 40px;
   z-index: 1;
   position: absolute;
-  margin-left: 10%;
+  margin-left: 6%;
 }
 
 .initiative div {
