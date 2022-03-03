@@ -131,15 +131,6 @@ img .facebook {
 
 /* NAV BRANDING */
 
-/* .nav-branding .logo-image {
-  width: 123px;
-  height: 19px;
-} */
-
-/* .logo-image #element {
-  transition: 0.5s ease-out;
-} */
-
 .nav-branding .logo-image #element {
   fill: rgb(0, 0, 0);
 }
@@ -172,8 +163,6 @@ img .facebook {
   }
 
   .header-container a {
-    /* margin-top: 40px; */
-    /* padding: 0px; */
     color: white;
     font-size: 19px;
     text-decoration: none;
@@ -192,7 +181,6 @@ img .facebook {
   }
 
   .dropdown {
-    /* margin: 40px; */
     padding: 13px 30px 0px 0px;
     position: relative;
     display: inline-block;

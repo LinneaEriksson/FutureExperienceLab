@@ -15,8 +15,6 @@ html {
 
 body {
   height: 100vh;
-  /* line-height: 1.6;
-  overflow: hidden; */
   background-color: #212121;
 }
 
@@ -30,10 +28,4 @@ body {
   font-family: "NagodaTwo";
   src: url("fonts/Nagoda.woff") format("woff"),
     url("fonts/Nagoda.woff2") format("woff2");
-}
-
-@media only screen and (min-width: 600px) {
-  /* body {
-    overflow: visible;
-  } */
 }

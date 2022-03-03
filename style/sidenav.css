@@ -50,8 +50,4 @@
   .home-page a .button-element {
     transition: 0.5s ease-out;
   }
-
-  /* .home-page a :hover .button-element {
-    fill: rgb(200, 255, 0);
-  } */
 }
