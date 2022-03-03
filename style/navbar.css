@@ -8,6 +8,8 @@ header {
   position: fixed !important;
   width: 100%;
   background-image: url("../images/navbar-mobil.png");
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
   top: 0;
   position: sticky;
   z-index: 5;
