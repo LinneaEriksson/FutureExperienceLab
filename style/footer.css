@@ -1,6 +1,5 @@
 .footer {
-  background-color: #212121;
-  background: url("/images/landing/Grain.png") no-repeat center center/cover;
+  background-color: rgb(24, 24, 24);
   height: 850px;
   display: flex;
   flex-direction: column;
@@ -35,7 +34,7 @@
 }
 
 .footer p {
-  font-family: "Syne", sans-serif;
+  font-family: Syne;
   color: white;
   font-size: 20px;
 }
