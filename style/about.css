@@ -71,6 +71,19 @@
   display: block;
 }
 
+.about-desktop-image {
+  display: none;
+}
+
+.about-mobile-image {
+  position: absolute;
+  display: block;
+  margin-left: 7%;
+  margin-top: 65%;
+  margin-right: auto;
+  width: 85%;
+}
+
 @media only screen and (min-width: 600px) {
   .about {
     height: 1050px;
@@ -109,32 +122,15 @@
     width: 45%;
   }
 
-  .about-first-image {
-    margin-left: 50%;
-    width: 298px;
-    margin-top: 308px;
-  }
-
-  .about-second-image {
-    margin-left: 60%;
-    display: block;
-    position: absolute;
-    width: 231px;
-    margin-top: 524px;
-    z-index: 2;
-  }
-
-  .about-third-image {
-    margin-left: 75%;
-    margin-top: 350px;
-    width: 320px;
-  }
-
   .about p {
     font-size: 24px;
     margin-top: 444px;
     width: 80%;
     margin-left: 200px;
+  }
+
+  .about-mobile-image {
+    display: none;
   }
 }
 
