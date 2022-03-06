@@ -31,35 +31,8 @@
   background: pink;
 }
 
-.contact-first-image {
-  margin-left: 15%;
-  width: 145px;
-  margin-top: 50px;
-  z-index: 1;
-  position: absolute;
-  border-radius: 12px;
-  box-shadow: -4px 20px 16px 2px rgba(0, 0, 0, 0.31);
-}
-
-.contact-second-image {
-  margin-left: 43%;
-  display: block;
-  position: absolute;
-  width: 200px;
-  margin-top: 80px;
-  z-index: 2;
-  border-radius: 12px;
-  box-shadow: -4px 20px 16px 2px rgba(0, 0, 0, 0.31);
-}
-
-.contact-third-image {
-  margin-left: 7%;
-  margin-top: 200px;
-  width: 195px;
-  z-index: 3;
-  position: absolute;
-  border-radius: 12px;
-  box-shadow: -4px 20px 16px 2px rgba(0, 0, 0, 0.31);
+.contact-desktop-image {
+  display: none;
 }
 
 .contact button {
@@ -104,31 +77,119 @@
     position: absolute;
   }
 
-  .contact-first-image {
-    margin-left: 50%;
-    width: 298px;
-    margin-top: 100px;
-    z-index: 1;
+  .contact-desktop-image {
     position: absolute;
-  }
-
-  .contact-second-image {
-    margin-left: 60%;
     display: block;
-    position: absolute;
-    width: 231px;
-    margin-top: 250px;
-    z-index: 2;
+    margin-left: 18%;
+    margin-top: 7%;
+    margin-right: auto;
+    width: 70%;
   }
 
-  .contact-third-image {
-    margin-left: 75%;
-    margin-top: 80px;
-    width: 320px;
-    z-index: 3;
+  .contact button {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 380px;
+    border: none;
+    border-radius: 20%;
+    height: 80px;
+    color: #e97763;
+    padding-bottom: 18px;
+    font-size: 18px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .contact-desktop-image {
     position: absolute;
+    display: block;
+    margin-left: 18%;
+    margin-top: 7%;
+    margin-right: auto;
+    width: 70%;
   }
 
+  .contact button {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 450px;
+    border: none;
+    border-radius: 20%;
+    height: 80px;
+    color: #e97763;
+    padding-bottom: 18px;
+    font-size: 18px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .contact-desktop-image {
+    position: absolute;
+    display: block;
+    margin-left: 16%;
+    margin-top: 7%;
+    margin-right: auto;
+  }
+
+  .contact button {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 500px;
+    border: none;
+    border-radius: 20%;
+    height: 80px;
+    color: #e97763;
+    padding-bottom: 18px;
+    font-size: 18px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .contact-desktop-image {
+    margin-left: 26%;
+    margin-top: 7%;
+  }
+
+  .contact button {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 500px;
+    border: none;
+    border-radius: 20%;
+    height: 80px;
+    color: #e97763;
+    padding-bottom: 18px;
+    font-size: 18px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact-desktop-image {
+    position: absolute;
+    display: block;
+    margin-left: 28%;
+    margin-top: 7%;
+    margin-right: auto;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .contact-desktop-image {
+    position: absolute;
+    display: block;
+    margin-left: 38%;
+    margin-top: 7%;
+    margin-right: auto;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
   .contact button {
     width: 300px;
     background: url("/images/contact/ContactButton.png") no-repeat center
@@ -145,5 +206,14 @@
     padding-left: 45px;
     font-family: Nagoda;
     cursor: pointer;
+  }
+
+  .contact-desktop-image {
+    position: absolute;
+    display: block;
+    margin-left: 48%;
+    margin-top: 7%;
+    margin-right: auto;
+    width: auto;
   }
 }
