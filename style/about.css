@@ -97,15 +97,25 @@
     position: absolute;
     display: block;
     margin-left: 48%;
+<<<<<<< HEAD
     margin-top: 50%;
+=======
+    margin-top: 54%;
+>>>>>>> dfb3e27cec925e23344389cfa2426ea12216f50d
     margin-right: auto;
     width: 45%;
   }
 
   .about p {
+<<<<<<< HEAD
     font-size: 18px;
     margin-top: 40%;
     width: 50%;
+=======
+    font-size: 24px;
+    margin-top: 544px;
+    width: 80%;
+>>>>>>> dfb3e27cec925e23344389cfa2426ea12216f50d
     margin-left: 200px;
   }
 
