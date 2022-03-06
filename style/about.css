@@ -64,9 +64,19 @@
   width: 85%;
 }
 
+@media only screen and (min-width: 500px) {
+  .about-mobile-image {
+    width: 70%;
+  }
+
+  .about p {
+    margin-top: 60%;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .about {
-    height: 1050px;
+    height: 800px;
   }
 
   .mobile-break {
@@ -74,8 +84,8 @@
   }
   .about h2 {
     margin-left: 200px;
-    font-size: 28px;
-    width: 80%;
+    font-size: 24px;
+    width: 60%;
     margin-top: 120px;
     margin-bottom: 120px;
   }
@@ -103,9 +113,9 @@
   }
 
   .about p {
-    font-size: 24px;
-    margin-top: 544px;
-    width: 80%;
+    font-size: 18px;
+    margin-top: 224px;
+    width: 60%;
     margin-left: 200px;
   }
 
@@ -120,9 +130,29 @@
   }
 }
 
+@media only screen and (min-width: 700px) {
+  .about .about-desktop-image {
+    margin-top: 54%;
+  }
+
+  .about {
+    height: 900px;
+  }
+  .about h2 {
+    font-size: 28px;
+  }
+  .about p {
+    margin-top: 45%;
+  }
+}
+
 @media only screen and (min-width: 800px) {
   .about .about-desktop-image {
     margin-top: 44%;
+  }
+
+  .about p {
+    margin-top: 40%;
   }
 }
 
@@ -130,11 +160,33 @@
   .about .about-desktop-image {
     margin-top: 38%;
   }
+
+  .about {
+    height: 920px;
+  }
+  .about h2 {
+    font-size: 32px;
+    width: 70%;
+  }
+  .about p {
+    margin-top: 40%;
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
   .about .about-desktop-image {
     margin-top: 34%;
+  }
+
+  .about {
+    height: 950px;
+  }
+  .about h2 {
+    font-size: 36px;
+  }
+  .about p {
+    margin-top: 35%;
   }
 }
 
@@ -148,11 +200,25 @@
   .about .about-desktop-image {
     margin-top: 28%;
   }
+
+  .about {
+    height: 1000px;
+  }
+  .about h2 {
+    font-size: 40px;
+  }
+  .about p {
+    margin-top: 30%;
+    font-size: 28px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   .about h2 {
     font-size: 44px;
+  }
+  .about {
+    height: 1100px;
   }
 
   .about .about-desktop-image {
