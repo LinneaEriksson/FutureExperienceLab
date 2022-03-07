@@ -56,24 +56,38 @@
   margin-left: 6%;
 }
 
-@media only screen and (min-width: 600px) {
-  .initiative {
-    background-color: #212121;
-    height: 1200px;
+@media only screen and (min-width: 500px) {
+  .initiative-decoration-mobile {
+    margin-top: 120px;
+  }
+
+  .initiative-image-mobile {
+    margin-left: 20%;
   }
 
   .initiative h2 {
-    font-size: 80px;
-    line-height: 80px;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .initiative {
+    background-color: #212121;
+    height: 800px;
+  }
+
+  .initiative h2 {
+    font-size: 40px;
+    line-height: 40px;
     padding-top: 180px;
-    margin-right: 15%;
+    margin-right: 5%;
   }
 
   .initiative-decoration {
     display: block;
     width: 100%;
     z-index: 0;
-    margin-top: 200px;
+    margin-top: 100px;
     position: absolute;
   }
 
@@ -100,14 +114,50 @@
   }
 
   .initiative p {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 45%;
+    margin-right: 6%;
+    width: 50%;
+    font-family: var(--paragraphs);
+    color: var(--paragraph-color);
+    z-index: 2;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .initiative {
+    height: 1000px;
+  }
+
+  .initiative h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .initiative p {
     font-size: 24px;
     margin-top: 40px;
     margin-left: 45%;
     margin-right: 6%;
     width: 550px;
-    font-family: var(--paragraphs);
-    color: var(--paragraph-color);
-    z-index: 2;
-    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .initiative h2 {
+    font-size: 80px;
+    line-height: 80px;
+    padding-top: 180px;
+    margin-right: 15%;
+  }
+
+  .initiative p {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 45%;
+    margin-right: 6%;
+    width: 550px;
   }
 }
