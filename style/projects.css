@@ -55,8 +55,109 @@
 }
 
 /* DESKTOP */
+@media only screen and (min-width: 500px) {
+  .projects {
+    background: linear-gradient(to right, #ffaf7b, #d76d77, #3a1c71);
+    height: 1000px;
+  }
+
+  .projects-text {
+    padding: 130px 10px 130px 60px;
+    text-align: left;
+    justify-content: left;
+    align-self: start;
+  }
+
+  .projects-text h2 {
+    padding-bottom: 80px;
+    font-size: 30px;
+  }
+
+  .projects-text .paragraph-text-mobile {
+    display: inherit;
+  }
+
+  .projects .scroll-menu {
+    height: 530px;
+    padding-left: 60px;
+  }
+
+  .scroll-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-menu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .projects .scroll-menu div {
+    width: 24%;
+    max-width: 50rem;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .projects p {
+    font-size: 16px;
+  }
+}
 
 @media only screen and (min-width: 600px) {
+  .projects {
+    background: linear-gradient(to right, #ffaf7b, #d76d77, #3a1c71);
+    height: 1000px;
+  }
+
+  .projects-text {
+    padding: 70px 10px 60px 120px;
+    text-align: left;
+    justify-content: left;
+    align-self: start;
+  }
+
+  .projects-text h2 {
+    padding-bottom: 40px;
+    font-size: 60px;
+  }
+
+  .projects-text .paragraph-text-desktop {
+    display: inherit;
+  }
+
+  .projects-text .paragraph-text-mobile {
+    display: none;
+  }
+
+  .projects .scroll-menu {
+    height: 530px;
+    padding-left: 100px;
+  }
+  .scroll-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-menu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .projects .scroll-menu div {
+    width: 24%;
+    max-width: 50rem;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .projects p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
   .projects {
     background: linear-gradient(to right, #ffaf7b, #d76d77, #3a1c71);
     height: 1000px;
