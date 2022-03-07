@@ -175,15 +175,9 @@
   }
 
   .contact button {
-    width: 300px;
     margin-left: 80px;
     margin-top: 500px;
-    border: none;
-    border-radius: 20%;
-    height: 80px;
-    color: #e97763;
     padding-bottom: 18px;
-    font-size: 18px;
     padding-left: 45px;
   }
 
@@ -224,21 +218,9 @@
 
 @media only screen and (min-width: 1350px) {
   .contact button {
-    width: 300px;
-    background: url("/images/contact/ContactButton.png") no-repeat center
-      center/cover;
     margin-left: 200px;
     margin-top: 400px;
-    border: none;
-    border-radius: 20%;
-    height: 80px;
-    color: #e97763;
-    padding-bottom: 18px;
-    font-size: 18px;
-    text-align: left;
     padding-left: 45px;
-    font-family: Nagoda;
-    cursor: pointer;
   }
 
   .contact-desktop-image {
