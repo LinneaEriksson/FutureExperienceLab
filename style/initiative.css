@@ -50,10 +50,11 @@
 
 .initiative-image-mobile {
   display: block;
-  margin-top: 40px;
+  margin-top: 74px;
   z-index: 1;
   position: absolute;
-  margin-left: 6%;
+  margin-left: 0%;
+  width: 99%;
 }
 
 @media only screen and (min-width: 500px) {
